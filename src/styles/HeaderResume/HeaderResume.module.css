@@ -1,0 +1,40 @@
+.HeaderWrap {
+  margin-bottom: 120px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.HeaderWrap .wrapElem {
+  max-width: 855px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.HeaderWrap .wrapElem .avatar img {
+  width: 243px;
+}
+
+@media (max-width: 768px) {
+  .wrapElem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+  }
+  .wrapElem .avatar img {
+    margin-bottom: 34px;
+  }
+}
+/*# sourceMappingURL=HeaderResume.module.css.map */

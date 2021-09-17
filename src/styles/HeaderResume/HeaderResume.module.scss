@@ -1,0 +1,38 @@
+// .HeaderWrap{
+
+// }
+.HeaderWrap {
+    margin-bottom: 120px;
+    margin-right: 20px;
+    margin-left: 20px;
+    .wrapElem {
+        max-width: 855px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .avatar {
+            img {
+                width: 243px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 768px) {
+    .wrapElem {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+
+        .avatar {
+            img {
+                margin-bottom: 34px;
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+}

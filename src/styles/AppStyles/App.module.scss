@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapHead {
+    max-width: 950px;
+    margin: 0 auto;
+    .wrapPostInFull {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .linkToAllPost {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 27px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        .mySelfPosts {
+            font-size: 22px;
+            font-weight: 400;
+            justify-content: space-between;
+            line-height: 60px;
+            font-family: "Heebo", sans-serif;
+        }
+        .LinkPost {
+            color: #00a8cc;
+            font-size: 16px;
+            line-height: 23px;
+            font-weight: 400;
+            font-family: "Heebo", sans-serif;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 768px) {
+    .wrapHead {
+        .linkToAllPost {
+            display: flex;
+            justify-content: center;
+            .LinkPost {
+                display: none;
+            }
+            .mySelfPosts {
+                text-align: center;
+            }
+        }
+        .wrapPostInFull{
+            :nth-child(1){
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+}

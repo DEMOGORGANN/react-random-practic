@@ -1,0 +1,79 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap");
+.centerWrap {
+  margin-bottom: 135px;
+}
+
+.centerWrap .wrapNavBar {
+  max-width: 1032px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.centerWrap .wrapNavBar .wrapLink {
+  margin: 27px 60px 27px 0;
+  max-width: 238px;
+}
+
+.centerWrap .wrapNavBar .wrapLink a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 34px;
+}
+
+.centerWrap .wrapNavBar .wrapLink :last-child {
+  margin-right: 0;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media (max-width: 768px) {
+  .wrapNavBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .wrapNavBar .container {
+    margin: 7px 10px 7px 0;
+  }
+}
+/*# sourceMappingURL=NavBar.module.css.map */

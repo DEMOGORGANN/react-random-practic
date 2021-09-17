@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapHead {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.wrapHead .wrapPostInFull {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapHead .linkToAllPost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 27px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.wrapHead .linkToAllPost .mySelfPosts {
+  font-size: 22px;
+  font-weight: 400;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 60px;
+  font-family: "Heebo", sans-serif;
+}
+
+.wrapHead .linkToAllPost .LinkPost {
+  color: #00a8cc;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .wrapHead .linkToAllPost {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wrapHead .linkToAllPost .LinkPost {
+    display: none;
+  }
+  .wrapHead .linkToAllPost .mySelfPosts {
+    text-align: center;
+  }
+  .wrapHead .wrapPostInFull :nth-child(1) {
+    margin-bottom: 16px;
+  }
+}
+/*# sourceMappingURL=App.module.css.map */
