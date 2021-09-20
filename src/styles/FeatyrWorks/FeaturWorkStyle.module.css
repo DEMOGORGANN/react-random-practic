@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap");
+.wrapWork .work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 44px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.wrapWork .work > img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+}
+
+.wrapWork .work .infoForWork > h2 {
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #21243d;
+  margin: 0;
+}
+
+.wrapWork .work .infoForWork .dateWork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 190px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapWork .work .infoForWork .dateWork strong {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 16px;
+  background: #142850;
+  color: white;
+  width: 62px;
+  height: 30px;
+}
+
+.wrapWork .work .infoForWork .dateWork .TypeOfWork {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695a4;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapWork .work .infoForWork > h3 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #21243d;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .wrapWork {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .wrapWork .work {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=FeaturWorkStyle.module.css.map */

@@ -37,6 +37,23 @@
             text-decoration: none;
         }
     }
+    .titleWork {
+        font-size: 22px;
+        line-height: 60px;
+        font-weight: 400;
+        font-family: "Heebo", sans-serif;
+        span {
+            margin-left: 20px;
+        }
+    }
+    footer {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        font-weight: 400;
+        margin: 100px 0 54px;
+        font-family: "Heebo", sans-serif;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -53,8 +70,8 @@
                 text-align: center;
             }
         }
-        .wrapPostInFull{
-            :nth-child(1){
+        .wrapPostInFull {
+            :nth-child(1) {
                 margin-bottom: 16px;
             }
         }

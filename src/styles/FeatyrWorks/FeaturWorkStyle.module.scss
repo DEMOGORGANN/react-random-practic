@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap");
+.wrapWork {
+    .work {
+        display: flex;
+        margin-top: 44px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        > img {
+            width: 246px;
+            height: 180px;
+            border-radius: 6px;
+        }
+        .infoForWork {
+            > h2 {
+                font-size: 30px;
+                line-height: 44px;
+                font-weight: 700;
+                color: #21243d;
+                margin: 0;
+            }
+            .dateWork {
+                display: flex;
+                max-width: 190px;
+                justify-content: space-between;
+                margin-top: 22px;
+                align-items: center;
+                strong {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 18px;
+                    font-weight: 900;
+                    border-radius: 16px;
+                    background: #142850;
+                    color: white;
+                    width: 62px;
+                    height: 30px;
+                }
+                .TypeOfWork {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: #8695a4;
+                    vertical-align: middle;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            > h3 {
+                margin: 0;
+                font-size: 16px;
+                line-height: 23px;
+                font-weight: 400;
+                color: #21243d;
+                margin-top: 20px;
+                max-width: 500px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 768px) {
+    .wrapWork {
+        margin-right: 20px;
+        margin-left: 20px;
+        .work {
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 320px) {
+}
