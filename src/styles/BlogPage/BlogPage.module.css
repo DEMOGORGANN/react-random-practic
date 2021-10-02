@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap");
+.WrapPageBlog {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.WrapPageBlog h1 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+@media (max-width: 768px) {
+  .WrapPageBlog h1 {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=BlogPage.module.css.map */

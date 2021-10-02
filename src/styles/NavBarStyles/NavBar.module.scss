@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap");
 
 .centerWrap {
-    margin-bottom: 135px;
+    margin-bottom: 105px;
     .wrapNavBar {
         max-width: 1032px;
         margin: 0 auto;
@@ -58,11 +58,14 @@
 @media (max-width: 1200px) {
 }
 @media (max-width: 768px) {
-    .wrapNavBar {
-        display: flex;
-        justify-content: flex-end;
-        .container {
-            margin: 7px 10px 7px 0;
+    .centerWrap {
+        margin-bottom: 30px;
+        .wrapNavBar {
+            display: flex;
+            justify-content: flex-end;
+            .container {
+                margin: 7px 10px 7px 0;
+            }
         }
     }
 }
