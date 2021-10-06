@@ -29,6 +29,7 @@ function BlogPage() {
                     </div>
                 )
             })}
+            <footer>Copyright ©2020 All rights reserved </footer>
         </div>
     );
 }

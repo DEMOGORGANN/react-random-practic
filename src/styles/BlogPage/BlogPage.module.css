@@ -65,6 +65,15 @@
   color: #21243d;
 }
 
+.WrapPageBlog footer {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 100px 0 54px;
+  font-family: "Heebo", sans-serif;
+}
+
 @media (max-width: 768px) {
   .WrapPageBlog {
     margin: 0 18px 0 18px;
