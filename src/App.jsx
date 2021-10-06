@@ -5,7 +5,8 @@ import PageResume from './comnonents/PageResume';
 import BlogPage from "./comnonents/BlogPage";
 
 
-import styles from './styles/AppStyles/App.module.css'
+
+import './styles/AppStyles/App.module.css'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/blog" component={BlogPage} />
           <Route exact path='/contact' component={PageResume} />
-          {/* <Redirect to='/blog' /> */}
+          <Redirect to='/blog' />
         </Switch>
 
       </BrowserRouter>

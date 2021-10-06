@@ -1,21 +1,117 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap");
+* {
+  font-family: "Heebo", sans-serif;
+}
+
 .WrapPageBlog {
   max-width: 680px;
   margin: 0 auto;
 }
 
 .WrapPageBlog h1 {
-  font-family: "Heebo", sans-serif;
   font-weight: 700;
   font-size: 44px;
   line-height: 60px;
   color: #21243d;
+  margin-bottom: 60px;
+}
+
+.WrapPageBlog .wrapPostItems {
+  margin-bottom: 54px;
+}
+
+.WrapPageBlog .wrapPostItems h2 {
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 500;
+  color: #21243d;
+  margin-bottom: 16px;
+}
+
+.WrapPageBlog .wrapPostItems .wrapDateAndDesk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.WrapPageBlog .wrapPostItems .wrapDateAndDesk :first-child {
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243d;
+}
+
+.WrapPageBlog .wrapPostItems .wrapDateAndDesk :last-child {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+  margin-bottom: 26px;
+}
+
+.WrapPageBlog .wrapPostItems .wrapDateAndDesk .per {
+  font-size: 20px;
+}
+
+.WrapPageBlog .wrapPostItems span {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #21243d;
 }
 
 @media (max-width: 768px) {
+  .WrapPageBlog {
+    margin: 0 18px 0 18px;
+  }
   .WrapPageBlog h1 {
-    margin-left: 20px;
     font-size: 30px;
+    margin-bottom: 19px;
+  }
+  .WrapPageBlog .wrapPostItems {
+    margin-bottom: 42px;
+  }
+  .WrapPageBlog .wrapPostItems h2 {
+    font-size: 23px;
+    line-height: 38px;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  .WrapPageBlog .wrapPostItems .wrapDateAndDesk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .WrapPageBlog .wrapPostItems .wrapDateAndDesk :first-child {
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #21243d;
+  }
+  .WrapPageBlog .wrapPostItems .wrapDateAndDesk :last-child {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #8695a4;
+    margin-bottom: 26px;
+  }
+  .WrapPageBlog .wrapPostItems .wrapDateAndDesk .per {
+    font-size: 20px;
+  }
+  .WrapPageBlog .wrapPostItems span {
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
   }
 }
 /*# sourceMappingURL=BlogPage.module.css.map */
