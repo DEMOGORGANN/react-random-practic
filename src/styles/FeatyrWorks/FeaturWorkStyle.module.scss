@@ -22,8 +22,6 @@
             }
             .dateWork {
                 display: flex;
-                max-width: 190px;
-                justify-content: space-between;
                 margin-top: 22px;
                 align-items: center;
                 strong {
@@ -37,6 +35,7 @@
                     color: white;
                     width: 62px;
                     height: 30px;
+                    margin-right: 26px;
                 }
                 .TypeOfWork {
                     font-size: 20px;
@@ -67,6 +66,8 @@
     .wrapWork {
         margin-right: 20px;
         margin-left: 20px;
+        max-width: 500px;
+        margin: 0 auto;
         .work {
             justify-content: center;
             text-align: center;

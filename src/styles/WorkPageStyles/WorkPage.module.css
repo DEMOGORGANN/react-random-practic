@@ -12,6 +12,123 @@
   font-size: 44px;
   line-height: 60px;
   font-weight: 900;
-  color: #21243D;
+  color: #21243d;
+}
+
+.wrapWorkPage .work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 44px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.wrapWorkPage .work img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.wrapWorkPage .work .infoForWork > h2 {
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #21243d;
+  margin: 0;
+}
+
+.wrapWorkPage .work .infoForWork .dateWork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapWorkPage .work .infoForWork .dateWork strong {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 16px;
+  background: #142850;
+  color: white;
+  width: 62px;
+  height: 30px;
+  margin-right: 26px;
+}
+
+.wrapWorkPage .work .infoForWork .dateWork .TypeOfWork {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695a4;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapWorkPage .work .infoForWork h3 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #21243d;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.wrapWorkPage footer {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 100px 0 54px;
+  font-family: "Heebo", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .wrapWorkPage {
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .wrapWorkPage h1 {
+    text-align: center;
+  }
+  .wrapWorkPage .work {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrapWorkPage .work .infoForWork .dateWork {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=WorkPage.module.css.map */

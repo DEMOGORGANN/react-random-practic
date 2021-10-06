@@ -85,5 +85,13 @@
   .wrapHead .wrapPostInFull :nth-child(1) {
     margin-bottom: 16px;
   }
+  .wrapHead .titleWork span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=PageResume.module.css.map */
