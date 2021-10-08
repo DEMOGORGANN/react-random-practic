@@ -17,6 +17,7 @@ export default function NavBar() {
                         <div className={style.wrapLink}>
                             <Link to="/works">Works</Link>
                             <Link to="/blog">Blog</Link>
+                            <Link to="/">Home</Link>
                             <Link to="/contact">Contact</Link>
                         </div>
                     </nav>

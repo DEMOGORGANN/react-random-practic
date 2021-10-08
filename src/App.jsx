@@ -4,6 +4,7 @@ import NavBar from "./comnonents/NavBar";
 import PageResume from './comnonents/PageResume';
 import BlogPage from "./comnonents/BlogPage";
 import WorkPage from "./comnonents/WorkPage";
+import Contact from "./comnonents/Contact";
 
 
 
@@ -17,7 +18,8 @@ function App() {
         <Switch>
           <Route exact path="/works" component={WorkPage} />``
           <Route exact path="/blog" component={BlogPage} />
-          <Route exact path='/contact' component={PageResume} />
+          <Route exact path='/' component={PageResume} />
+          <Route exact path='/contact' component={Contact} />
           <Redirect to='/blog' />
         </Switch>
 
